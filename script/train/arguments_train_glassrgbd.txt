@@ -1,0 +1,34 @@
+--mode train
+--model_name bts_nyu_v2_pytorch_att
+--encoder resnet101_bts
+--dataset glassrgbd
+--data_path /mnt/lab/data/depth/Glass-RGBD/images/
+--gt_depth_path /mnt/lab/data/depth/Glass-RGBD/depth/
+--gt_seg_path /mnt/lab/data/depth/Glass-RGBD/segmentation/
+--gt_line_path /mnt/lab/data/depth/Glass-RGBD/polygon_json/
+--filenames_file_train /mnt/lab/data/depth/Glass-RGBD/train.txt
+--filenames_file_eval /mnt/lab/data/depth/Glass-RGBD/eval.txt
+--glassrgbd_images_json /mnt/lab/data/depth/Glass-RGBD/glassrgbd_images.json
+--batch_size 1
+--num_epochs 100
+--learning_rate 1e-4
+--weight_decay 1e-2
+--adam_eps 1e-3
+--num_threads 1
+--input_height 416
+--input_width 512
+--max_depth 10
+--log_directory ./models
+--dist_url tcp://127.0.0.1:2346
+--att_rank 3
+
+--log_freq 100
+--do_online_eval
+--eval_freq 413
+--data_path_eval /mnt/lab/data/depth/Glass-RGBD/images/
+--gt_path_eval /mnt/lab/data/depth/Glass-RGBD/depth/
+--filenames_file_eval /mnt/lab/data/depth/Glass-RGBD/val.txt
+--min_depth_eval 1e-3
+--max_depth_eval 10
+--eval_summary_directory ./models/eval/
+--eigen_crop

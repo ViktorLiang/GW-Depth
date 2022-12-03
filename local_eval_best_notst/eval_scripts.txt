@@ -1,0 +1,1 @@
+bash script/evaluation/eval_stage1_line-glassrgbd.sh samplenumtest3-oddinterval3080
