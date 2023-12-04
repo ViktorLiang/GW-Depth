@@ -4,7 +4,7 @@
     <p>TPAMI 2023</p>
     <a href="https://ieeexplore.ieee.org/document/10230851" align="center">Paper</a> | 
     <a href="https://orca.cardiff.ac.uk/id/eprint/161953/1/paper.pdf" align="center">Paper Public Version</a> | 
-    <a href="https://drive.google.com/drive/folders/1hY34sFkJz56WYdvGHaSlWlOW5ufyc-M8?usp=drive_link" align="center">Our Glass wall depth(GW-Depth) Dataset and Trained Model</a> | 
+    <a href="https://drive.google.com/drive/folders/1hY34sFkJz56WYdvGHaSlWlOW5ufyc-M8?usp=drive_link" align="center">GW-Depth Dataset and Trained Model</a> | 
   </h2>
 </p>
 <p align="center">
