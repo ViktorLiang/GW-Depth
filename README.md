@@ -12,6 +12,7 @@
     <br>
     <em>We captured a RGB-D dataset for real world glass walls. A glass structure context and reflection context combined method is proposed to facilitate the depth estimation for glass walls. Our method demonstrates effective for both glass walls and indoor scenes in NYU Depth V2.</em>
 </p>
+
 ## Training
 ```
 bash script/train/a0_train_stage1_res50_glassrgbd.sh ckpt_0
