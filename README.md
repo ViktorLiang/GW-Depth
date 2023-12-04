@@ -8,7 +8,7 @@
   </h2>
 </p>
 <p align="center">
-    <img src="assets/teaser.jpg" alt="example" width=80%>
+    <img src="exp/git_teaser.png" alt="example" width=80%>
     <br>
     <em>We captured a RGB-D dataset for real world glass walls. A glass structure context and reflection context combined method is proposed to facilitate the depth estimation for glass walls. Our method demonstrates effective for both glass walls and indoor scenes in NYU Depth V2.</em>
 </p>
