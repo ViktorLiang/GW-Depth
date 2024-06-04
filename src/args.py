@@ -103,8 +103,8 @@ def get_args_parser():
     parser.add_argument('--gt_depth_path', type=str, default='/home/ly/data/datasets/trans-depth/Glass-RGBD-Dense/depth/', help='ground truth depth path', required=False)
     parser.add_argument('--gt_seg_path', type=str, default='/home/ly/data/datasets/trans-depth/Glass-RGBD-Dense/segmentation/', help='ground truth segmentation path', required=False)
     parser.add_argument('--gt_line_path', type=str, default='/home/ly/data/datasets/trans-depth/Glass-RGBD-Dense/polygon_json/', help='ground truth of line path', required=False)
-    parser.add_argument('--filenames_file_train', type=str, default='/home/ly/data/datasets/trans-depth/Glass-RGBD-Dense/train_182.txt', help='train names file', required=False)
-    parser.add_argument('--filenames_file_eval', type=str, default='/home/ly/data/datasets/trans-depth/Glass-RGBD-Dense/val_182.txt', help='evaluation names file', required=False)
+    parser.add_argument('--filenames_file_train', type=str, default='/home/ly/data/datasets/trans-depth/Glass-RGBD-Dense/train.txt', help='train names file', required=False)
+    parser.add_argument('--filenames_file_eval', type=str, default='/home/ly/data/datasets/trans-depth/Glass-RGBD-Dense/val.txt', help='evaluation names file', required=False)
     parser.add_argument('--glassrgbd_images_json', type=str, default='/home/ly/data/datasets/trans-depth/Glass-RGBD-Dense/glassrgbd_images.json', help='image information json', required=False)
 
     parser.add_argument('--glassrgbd_rhint_path', type=str, default='/mnt/lab/data/depth/glass-rgbd-rhint/', help='glass reflection points in json file', required=False)
